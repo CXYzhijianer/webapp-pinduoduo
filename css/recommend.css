@@ -1,0 +1,113 @@
+/*header*/
+header {
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .16rem;
+  color: #333333; }
+
+/* section*/
+.contentBox {
+  width: 100%;
+  -webkit-flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+section {
+  background: #fff; }
+
+.contentBox::-webkit-scrollbar {
+  display: none; }
+
+.goodsListBox {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  background: #f4f4f4; }
+
+.goodsInfo:nth-child(2n) {
+  margin-right: 0; }
+
+.goodsInfo:nth-child(1) {
+  margin-top: .04rem; }
+
+.goodsInfo:nth-child(2) {
+  margin-top: .04rem; }
+
+.goodsInfo {
+  position: relative;
+  display: -webkit-flex;
+  background: #fff;
+  -webkit-flex-direction: column;
+  margin-bottom: .04rem;
+  margin-right: .04rem; }
+  .goodsInfo img {
+    width: 1.76rem;
+    height: 1.83rem; }
+  .goodsInfo p {
+    font-size: .12rem; }
+
+.find {
+  display: inline-block;
+  width: .50rem;
+  height: .19rem;
+  border-top-left-radius: .13rem;
+  border-bottom-left-radius: .13rem;
+  border: 1px solid #c6c6c6;
+  border-right: none;
+  position: absolute;
+  bottom: .14rem;
+  right: -.04rem;
+  font-size: .12rem;
+  color: #58595b;
+  text-align: center;
+  line-height: .19rem; }
+  .find .icon-Group {
+    font-size: .1rem;
+    color: #58595b; }
+
+.goodsInfo:nth-child(2n) {
+  margin-right: 0; }
+
+#p_title {
+  font-size: .13rem;
+  color: #151516;
+  font-weight: 600;
+  margin-left: .09rem; }
+
+#p1 {
+  margin-left: .09rem;
+  line-height: .28rem; }
+  #p1 span:nth-child(1) {
+    width: .41rem;
+    height: .18rem;
+    background: #fff2eb;
+    border-radius: .03em;
+    margin-right: .06rem;
+    color: #ff5706; }
+  #p1 span:nth-child(2) {
+    width: .41rem;
+    height: .18rem;
+    background: #fff;
+    color: #c06bb6;
+    border-radius: .03rem;
+    margin-bottom: .09rem;
+    border: 1px solid #c06bb6; }
+
+#p2 {
+  margin-left: .09rem;
+  padding-bottom: .16rem; }
+  #p2 span:nth-child(1) {
+    font-size: .16rem;
+    margin-right: .05rem;
+    color: #e02e24; }
+  #p2 span:nth-child(2) {
+    color: #b9b5b5; }
+
+.recommend_ico {
+  color: #e02e24; }
+
+.icon-shouye {
+  color: #666666; }
+  
+/*# sourceMappingURL=recommend.css.map */

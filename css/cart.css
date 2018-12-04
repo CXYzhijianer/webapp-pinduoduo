@@ -1,0 +1,115 @@
+/*header*/
+header {
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .16rem;
+  color: #333333; }
+
+/* section*/
+.contentBox {
+  width: 100%;
+  -webkit-flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+section {
+  background: #fff; }
+
+.contentBox::-webkit-scrollbar {
+  display: none; }
+
+.empty {
+  height: .1rem;
+  background: #f4f4f4; }
+
+.p_slider {
+  margin-bottom: .1rem; }
+
+.cartInfo {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  background: #fff;
+  padding: .1rem;
+  padding-left: 0px;
+  margin-left: .1rem;
+  border-bottom: 1px solid #e5e5e5; }
+
+.cartInfo_left {
+  display: -webkit-flex; }
+  .cartInfo_left img {
+    width: .49rem;
+    height: .49rem;
+    margin-right: .13rem; }
+
+.infoBox {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .infoBox p:nth-of-type(1) {
+    display: -webkit-flex;
+    color: #151516;
+    font-size: .16rem; }
+    .infoBox p:nth-of-type(1) span:nth-of-type(1) {
+      color: #e02e24;
+      font-size: .13rem;
+      width: .27;
+      height: .16rem;
+      border: 1px solid #e02e24;
+      margin-left: .06rem;
+      border-radius: .02rem;
+      margin-top: .02rem;
+      text-align: center;
+      line-height: .16rem; }
+  .infoBox p:nth-of-type(2) {
+    color: #9c9c9c;
+    font-size: .13rem;
+    line-height: .27rem; }
+
+.cartInfo_right {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  text-align: center; }
+  .cartInfo_right span:nth-of-type(1) {
+    color: #b0b0b0;
+    font-size: .12rem;
+    line-height: .24rem;
+    text-align: center; }
+  .cartInfo_right span:nth-of-type(2) {
+    color: #fff;
+    font-size: .15rem;
+    background: #e02e24;
+    border-radius: .09rem;
+    text-align: center;
+    margin-top: .05rem; }
+
+section #focus {
+  width: .2rem;
+  height: .2rem;
+  border-radius: 50%;
+  margin-left: .08rem;
+  text-align: center; }
+
+#time {
+  color: #b0b0b0;
+  font-size: .12rem;
+  line-height: .24rem;
+  text-align: center;
+  border: 0;
+  margin-left: 1.6rem; }
+
+#title_content {
+  width: 2.61rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+#time_right {
+  color: #b0b0b0;
+  font-size: .12rem;
+  line-height: .24rem;
+  text-align: center;
+  margin-left: 1.1rem; }
+.icon-liaotian{
+  color: #e02e24;
+}
+/*# sourceMappingURL=cart.css.map */

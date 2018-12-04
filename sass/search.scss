@@ -1,0 +1,164 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,input,dl,dd,dt,ol,ul,p,select,option,textarea{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+html{
+    font-size: 27.78vw;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+img{
+    border: none;
+    display: block;
+}
+// header
+header{
+    width: 100%;
+    height: .94rem;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+    div:nth-child(1){
+        width: 100%;
+        height: .45rem;
+        line-height: .45rem;
+        display: -webkit-flex;
+        text-align: center;
+        span{
+            font-size: .16rem;
+            color:#333333;
+            margin:auto  1.5rem;
+          
+        }
+        img{
+            width: .20rem;
+            height: .24rem;
+            padding-top: .1rem;
+        }
+    }
+}
+
+.searchBox{
+    text-align: center;
+        line-height: .49rem;
+       padding-bottom: .07rem;
+        input{
+            width: 3.34rem;
+            height: .42rem;
+            background: #ededed url(../img/sou.jpg) no-repeat .9rem center;
+            background-size: .18rem .18rem;
+            border-radius: .06rem;
+            border: none;
+            outline: none;
+            text-align: center;
+            line-height: .42rem;
+            z-index: 10;
+            font-size: .16rem;
+            color:#9c9c9c;
+        }
+}
+input #spanId{
+    font-size: .15rem;
+    color:#9c9c9c;
+}
+
+// content
+.content{
+    // width: 100%;
+    -webkit-flex:1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+section{
+    height:5rem;
+    width: 100%;
+    display: -webkit-flex;
+    // -webkit-flex-direction:column;
+    overflow-y:auto;
+}
+.nav_list{
+    overflow-y: auto;
+
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    background: #e3dfdf;
+
+    a{
+        width: .9rem;
+        height: .52rem;
+        color:#58595b;
+        font-size: .14rem;
+        text-align: center;
+        line-height: .52rem;
+        margin-right: .22rem;
+
+    }
+}
+
+
+
+.nav_list::-webkit-scrollbar{
+    display: none;
+}
+.showGoods::-webkit-scrollbar{
+    display: none;
+}
+.showGoods{
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+// footer
+footer{
+    width: 100%;
+    height: .5rem;
+    background: #ffffff;
+    display: -webkit-flex;
+    a{
+        -webkit-flex:1;
+        display:-webkit-flex;
+        text-align: center;
+        padding-top: .1rem;
+        -webkit-flex-direction:column;
+        span{
+            color:#666666;
+            font-size: .1rem;
+            line-height: .2rem;
+        }
+       
+    }
+}
+
+.icon-sousuo{
+    color: red;
+    font-size:.24rem;
+}
+.icon-tuijian,.icon-shouye, .icon-gerenzhongxin{
+    font-size:.24rem;
+    color: #666666;
+}

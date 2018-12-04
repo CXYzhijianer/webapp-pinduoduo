@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, input, dl, dd, dt, ol, ul, p, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%; }
+
+html {
+  font-size: 27.78vw; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+  footer {
+  width: 100%;
+  height: .53rem;
+  background: #ffffff;
+  display: -webkit-flex; }
+  footer a {
+    -webkit-flex: 1;
+    display: -webkit-flex;
+    text-align: center;
+    padding-top: .1rem;
+    -webkit-flex-direction: column; }
+    footer a span {
+      color: #666666;
+      font-size: .1rem;
+      line-height: .2rem; }
+
+  .icon-shouye,.icon-tuijian, .icon-sousuo, .icon-gerenzhongxin,.icon-liaotian {
+  font-size: .24rem;
+  color: #666666; }
+
+/*  backTop*/
+.backTop{
+  font-size: .09rem;
+  color: #58595b; 
+  width: .38rem;
+  height: .38rem;
+  border-radius: 50%;
+  border: 1px solid #e2e3e4;
+  text-align: center;
+  position: absolute;
+  background: #ffffff;
+  bottom: .8rem;
+  right: .33rem;
+  display: none;
+
+}
+.topTitle{
+  display: block;
+}
+.icon-dingbu-{
+  margin-top: .05rem;
+  margin-bottom: .01rem;
+}
+.box{
+  display: none;
+  /* display: -webkit-flex; */
+  position: absolute;
+  right: 0rem;
+  bottom: 1rem;
+  width: .67rem;
+  height: .87rem;
+}

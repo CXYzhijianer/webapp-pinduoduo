@@ -1,0 +1,192 @@
+/* header */
+header{
+    width: 100%;
+    height: 1.24rem;
+    line-height: 1.24rem;
+    display: -webkit-flex;
+
+}
+header a:nth-child(1){
+    width: .95rem;
+    height: .95rem;
+    margin:.24rem .14rem;
+}
+header a:nth-child(1) img{
+    width: .94rem;
+    height: .94rem;
+
+}
+header a:nth-child(2){
+   margin-top: .56rem;
+    width: .98rem;
+    height: .31rem;
+    border:1px solid red;
+    border-radius: .1rem;
+    color: red;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .31rem;
+}
+
+
+/* section */
+section{
+    width: 100%;
+    -webkit-flex:1;
+    overflow-y:auto;
+    /* height: 100%; */
+    overflow-x:hidden;
+    background: #f4f4f4;
+}
+section::-webkit-scrollbar{
+    display: none;
+}
+.orderBox{
+    /* width: 100%; */
+    height: .50rem;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between;
+    padding-left: .11rem;
+    padding-right: .11rem;
+    line-height: .5rem;
+    border-top:1px solid #f4f4f4;
+    background: #ffffff;
+}
+
+#linkA {
+    font-size: .16rem;
+    color: #9c9c9c;
+     
+}
+.order{
+    font-size: .16rem;
+    color:#000;
+}
+.orderInfo{
+    display:-webkit-flex;
+    height: .73rem;
+    margin-bottom: .08rem;
+    background: #ffffff;
+    padding-bottom: .22rem;
+}
+.orderInfo a{
+    text-align: center;
+    -webkit-flex-shrink:0;
+    -webkit-flex:1;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+    /* height: .73rem; */
+    font-size: .14rem;
+    color:#6a6b6c;
+    padding-bottom: .23rem;
+    
+}
+.icon-daifukuan,.icon-fenxiang,.icon-maijiazhongxin_daifahuo,.icon-daishouhuo,.icon-daipingjia{
+    font-size: .39rem;
+    margin-bottom: .13rem;
+}
+.icon-youhuijuan,.icon-shangpinshoucang,.icon-shangpinshoucang1,.icon-icon-copy-copy,.icon-tuikuan{
+    color:#e02e24;
+    font-size: .38rem;
+    margin-bottom: .13rem;
+}
+.focus{
+    padding-top: .2rem;
+    margin-bottom: .07rem;
+}
+section .duty{
+    display: -webkit-flex;
+    /* width: 3.6rem; */
+    -webkit-flex-wrap:wrap;
+    
+} 
+section .duty a{
+   background: #ffffff;
+    width:25%;
+     -webkit-flex-shrink:0;
+     -webkit-flex:1;
+    /* padding-top:.2rem; */
+    padding-left:.18rem;
+    padding-right: .18rem;
+    
+
+}
+.icon-kanjiaicon,.icon-qiandai,.icon-shifoulingquhongbao,.icon-dizhi,.icon-pingjia,.icon-kefu,.icon-iconfontshezhi23{
+    color:#ff7302;
+    font-size: .37rem;
+    margin-bottom: .13rem;
+}
+.login_banner{
+    width: 100%;
+    display: -webkit-flex;
+    height: .64rem;
+    text-align: center;
+    line-height: .64rem;
+}
+.login_banner a img{
+    height: .64rem;
+    margin-top: 1rem;
+}
+.login_banner a{
+    text-align: center;
+    height: .64rem;
+    
+}
+.goodsListBox {
+    width: 3.60rem;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap; }
+  
+#tuijian {
+    background: #fff;
+    width: 3.6rem;
+    height: .48rem;
+    line-height: .48rem;
+    text-align: center;
+    font-size: .13rem;
+    border-bottom: 1px solid #f4f4f4;
+    margin-top: 1.3rem;
+}
+    #tuijian .icon-ziyuan {
+      font-size: .2rem;
+      color: #c06bb6;
+    
+ }
+  
+  .goodsInfo:nth-child(2n) {
+    margin-right: 0; }
+  
+  .goodsInfo {
+    width: 1.78rem;
+    height: 2.57rem;
+    display: -webkit-flex;
+    background: #fff;
+    -webkit-flex-direction: column;
+    margin-bottom: .02rem;
+    margin-right: .02rem; }
+    .goodsInfo img {
+      width: 1.77rem;
+      height: 1.79rem; }
+    .goodsInfo p {
+      font-size: .12rem; }
+
+
+      #p_title {
+        font-size: .12rem;
+        color: #151516;
+        margin-left: .09rem; }
+      
+      #p1 {
+        margin-left: .09rem;
+        line-height: .28rem; }
+    
+      #p2 {
+        margin-left: .09rem; }
+        #p2 span:nth-child(1) {
+          color: red; }
+        #p2 span:nth-child(2) {
+          color: #b9b5b5; }
+
+          #personal{
+              color:#e02e24;
+          }
